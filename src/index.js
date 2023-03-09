@@ -1,1 +1,4 @@
-console.log('This is called from index.js')
+import "./style.css";
+import "./style_nav.css";
+import "./initial_page_load";
+import "./menu"

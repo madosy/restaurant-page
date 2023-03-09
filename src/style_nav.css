@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/pacifico.woff') format('woff'),
+    url('./fonts/pacifico.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+    
+
+nav {
+    min-height: fit-content;
+    min-width: fit-content;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    padding: 0px 40px 20px 40px;
+    background-color: black;
+    color: white;
+    place-content: center;
+}
+
+.logo{
+    position:relative;
+    bottom:-10px;
+    font-family: 'Pacifico';
+    font-size: 1.7rem;
+    min-width: 300px;
+    user-select: none;
+    place-self: end;
+    padding:0;
+    margin:0;
+}
+
+ul {
+    grid-column: 3;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    justify-content: end;
+    font-family: 'Bitter';
+    font-weight: 300;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    align-items: end;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
