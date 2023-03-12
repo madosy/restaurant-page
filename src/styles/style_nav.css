@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Pacifico';
-    src: url('./fonts/pacifico.woff') format('woff'),
-    url('./fonts/pacifico.woff2') format('woff2');
+    src: url('../assets/fonts/pacifico.woff') format('woff'),
+    url('../assets/fonts/pacifico.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }

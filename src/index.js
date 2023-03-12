@@ -1,4 +1,7 @@
-import "./style.css";
-import "./style_nav.css";
+import "./styles/style.css";
+import "./styles/style_nav.css";
 import "./initial_page_load";
-import "./menu"
+import loadWelcome from "./welcome"
+
+
+loadWelcome()

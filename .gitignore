@@ -1,1 +1,3 @@
 node_modules/
+*.md
+ignore_this_folder/

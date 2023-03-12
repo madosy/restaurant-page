@@ -3,7 +3,7 @@ body {
     border: 0;
     padding: 0;
     background-color: black;
-    background-image: url(./images/macarons-bg.jpeg);
+    background-image: url(../assets/images/macarons-bg.jpeg);
     background-size: cover;
     font-family: 'Bitter';
 }

@@ -1,11 +1,6 @@
-import './menu.css'
+import './styles/menu.css'
 
-const menu = document.createElement('main');
-menu.innerHTML = '<h1>Menu</h1>'
-menu.innerHTML += '<p>menu text</p>';
-//main
-
-//should load json with image tags and info and stuff.
-
-const main = document.body.querySelector('main')
-main.replaceWith(menu)
+export default function loadMenu() {
+    const main = document.querySelector('main')
+    main.innerHTML = '<h1>Menu</h1>'
+}
