@@ -11,11 +11,11 @@ const content = document.body.querySelector('#content')
 //navbar
 const navbar = document.createElement('nav')
 navbar.innerHTML = 
-`<div class="logo"><a href="#welcome" class="welcome">Crème de la Crème</a></div>
+`<div class="logo"><a class="welcome">Crème de la Crème</a></div>
 <ul>
-    <li><a href="#menu" class="menu">Menu</a></li>
-    <li><a href="#hours" class="hours">Hours</a></li>
-    <li><a href="#about" class="about">About Us</a></li>
+    <li><a class="menu">Menu</a></li>
+    <li><a class="hours">Hours</a></li>
+    <li><a class="about">About Us</a></li>
 </ul>`
 content.appendChild(navbar);
 const navlink_welcome = content.querySelector('.welcome')
