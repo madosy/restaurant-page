@@ -28,7 +28,6 @@ navlink_menu.addEventListener('click', loadMenu)
 navlink_hours.addEventListener('click', loadHours)
 navlink_about.addEventListener('click', loadAbout)
 
-
 //main
 const main = document.createElement('main')
 content.appendChild(main)
@@ -37,4 +36,3 @@ content.appendChild(main)
 const footer = document.createElement('footer')
 footer.innerHTML = "Background from https://unsplash.com/photos/hV1gChgMa-k"
 content.appendChild(footer)
-
