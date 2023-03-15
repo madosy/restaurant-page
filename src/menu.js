@@ -10,7 +10,7 @@ export default function loadMenu() {
         itemDiv.classList.add('menu-item')
 
         const itemImg = document.createElement('img')
-        itemImg.src = item.image
+        itemImg.src = require (`${item.image}`)
 
         const itemHeader = document.createElement('h2')
         itemHeader.textContent = item.name;
