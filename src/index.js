@@ -5,5 +5,4 @@ import loadWelcome from "./welcome"
 import loadMenu from "./menu"
 
 
-loadWelcome()
-loadMenu(); //delete me later
+loadWelcome();

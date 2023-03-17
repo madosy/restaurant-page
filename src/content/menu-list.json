@@ -1,12 +1,28 @@
 [
     {
-        "name": "Seared Steak",
-        "detail": "Our prime beef served to your taste with a delicious choice of seasonal sides.",
-        "image": "./assets/images/menu/steak.jpeg"
+        "name": "Blueberry",
+        "detail": "Indulge in our heavenly blueberry macarons - a delicate balance of crispy outer shells and soft, melt-in-your-mouth centers, filled with a luscious blueberry cream.",
+        "image": "./assets/images/menu/blueberry.jpeg"
     },
     {
-        "name": "Seared Salmon Fillet",
-        "detail": "Our locally sourced salmon served with a refreshing buckwheat summer salad.",
-        "image": "./assets/images/menu/salmon.jpeg"
+        "name": "Lemon",
+        "detail": "Savor the zesty and refreshing taste of our Lemon Macarons. Each bite will take you on a journey of bright citrusy notes, balanced with a delicate sweetness that melts in your mouth.",
+        "image": "./assets/images/menu/mango.jpeg"
+    },
+    {
+        "name": "Red Bean x Pistachio",
+        "detail": "Discover the unique and delicious blend of flavors in our Pistachio Red Bean Macarons. Made with finely ground pistachios and filled with a creamy red bean paste, each macaron is a delightful fusion of nutty and sweet flavors.",
+        "image": "./assets/images/menu/pistachio-redbean.jpeg"
+    },
+    {
+        "name": "Coffee",
+        "detail": "Awaken your taste buds with our Coffee Macarons, a perfect blend of rich, aromatic coffee flavors and delicate French pastry. Each macaron is carefully crafted with a smooth coffee ganache filling that perfectly complements the crispy and chewy texture of the cookie.",
+        "image": "./assets/images/menu/coffee.jpeg"
+    },
+    {
+        "name": "Cinnamon",
+        "detail": "Experience the warm and comforting flavors of our Cinnamon Macarons. Each bite of these delicate French pastries will transport you to a cozy autumn day with its delicious blend of cinnamon and sugar.",
+        "image": "./assets/images/menu/cinnamon.jpeg"
     }
+
 ]
