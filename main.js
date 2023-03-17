@@ -203,7 +203,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_nav_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style_nav.css */ \"./src/styles/style_nav.css\");\n/* harmony import */ var _initial_page_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./initial_page_load */ \"./src/initial_page_load.js\");\n/* harmony import */ var _welcome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./welcome */ \"./src/welcome.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n\n\n\n\n(0,_welcome__WEBPACK_IMPORTED_MODULE_3__[\"default\"])()\n;(0,_menu__WEBPACK_IMPORTED_MODULE_4__[\"default\"])(); //delete me later\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_nav_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/style_nav.css */ \"./src/styles/style_nav.css\");\n/* harmony import */ var _initial_page_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./initial_page_load */ \"./src/initial_page_load.js\");\n/* harmony import */ var _welcome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./welcome */ \"./src/welcome.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n\n\n\n\n(0,_welcome__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -236,7 +236,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenu)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/menu.css */ \"./src/styles/menu.css\");\n/* harmony import */ var _content_menu_list_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./content/menu-list.json */ \"./src/content/menu-list.json\");\n\n\n\nfunction loadMenu() {\n    const main = document.querySelector('main')\n    main.innerHTML = '<h1>Menu</h1>'\n\n    _content_menu_list_json__WEBPACK_IMPORTED_MODULE_1__.forEach((item) => {\n        const itemDiv = document.createElement('div')\n        itemDiv.classList.add('menu-item')\n\n        // const imgpath = item.image\n        const itemImg = document.createElement('img')\n        itemImg.src = __webpack_require__(\"./src sync recursive ^.*$\")(`${item.image}`)\n\n        const itemHeader = document.createElement('h2')\n        itemHeader.textContent = item.name;\n\n        const itemDetail = document.createElement('p')\n        itemDetail.textContent = item.detail;\n\n        itemDiv.appendChild(itemImg);\n        itemDiv.appendChild(itemHeader);\n        itemDiv.appendChild(itemDetail);\n    \n        main.appendChild(itemDiv);\n    })\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenu)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/menu.css */ \"./src/styles/menu.css\");\n/* harmony import */ var _content_menu_list_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./content/menu-list.json */ \"./src/content/menu-list.json\");\n\n\n\nfunction loadMenu() {\n    const main = document.querySelector('main')\n    main.innerHTML = '<h1>Menu</h1>'\n\n    _content_menu_list_json__WEBPACK_IMPORTED_MODULE_1__.forEach((item) => {\n        const itemDiv = document.createElement('div')\n        itemDiv.classList.add('menu-item')\n\n        const itemImg = document.createElement('img')\n        itemImg.src = __webpack_require__(\"./src sync recursive ^.*$\")(`${item.image}`)\n\n        const itemHeader = document.createElement('h2')\n        itemHeader.textContent = item.name;\n\n        const itemDetail = document.createElement('p')\n        itemDetail.textContent = item.detail;\n\n        itemDiv.appendChild(itemImg);\n        itemDiv.appendChild(itemHeader);\n        itemDiv.appendChild(itemDetail);\n    \n        main.appendChild(itemDiv);\n    })\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -257,7 +257,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\".\": \"./src/index.js\",\n\t\"./\": \"./src/index.js\",\n\t\"./assets/fonts/pacifico.woff\": \"./src/assets/fonts/pacifico.woff\",\n\t\"./assets/fonts/pacifico.woff2\": \"./src/assets/fonts/pacifico.woff2\",\n\t\"./assets/images/macarons-bg.jpeg\": \"./src/assets/images/macarons-bg.jpeg\",\n\t\"./assets/images/menu/salmon.jpeg\": \"./src/assets/images/menu/salmon.jpeg\",\n\t\"./assets/images/menu/steak.jpeg\": \"./src/assets/images/menu/steak.jpeg\",\n\t\"./content/menu-list\": \"./src/content/menu-list.json\",\n\t\"./content/menu-list.json\": \"./src/content/menu-list.json\",\n\t\"./content/welcome.txt\": \"./src/content/welcome.txt\",\n\t\"./hours\": \"./src/hours.js\",\n\t\"./hours.js\": \"./src/hours.js\",\n\t\"./index\": \"./src/index.js\",\n\t\"./index.js\": \"./src/index.js\",\n\t\"./initial_page_load\": \"./src/initial_page_load.js\",\n\t\"./initial_page_load.js\": \"./src/initial_page_load.js\",\n\t\"./loadAbout\": \"./src/loadAbout.js\",\n\t\"./loadAbout.js\": \"./src/loadAbout.js\",\n\t\"./menu\": \"./src/menu.js\",\n\t\"./menu.js\": \"./src/menu.js\",\n\t\"./styles/menu.css\": \"./src/styles/menu.css\",\n\t\"./styles/style.css\": \"./src/styles/style.css\",\n\t\"./styles/style_nav.css\": \"./src/styles/style_nav.css\",\n\t\"./welcome\": \"./src/welcome.js\",\n\t\"./welcome.js\": \"./src/welcome.js\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive ^.*$\";\n\n//# sourceURL=webpack://restaurant-page/./src/_sync_^.*$?");
+eval("var map = {\n\t\".\": \"./src/index.js\",\n\t\"./\": \"./src/index.js\",\n\t\"./assets/fonts/pacifico.woff\": \"./src/assets/fonts/pacifico.woff\",\n\t\"./assets/fonts/pacifico.woff2\": \"./src/assets/fonts/pacifico.woff2\",\n\t\"./assets/images/macarons-bg.jpeg\": \"./src/assets/images/macarons-bg.jpeg\",\n\t\"./assets/images/menu/blueberry.jpeg\": \"./src/assets/images/menu/blueberry.jpeg\",\n\t\"./assets/images/menu/blueberry2.jpeg\": \"./src/assets/images/menu/blueberry2.jpeg\",\n\t\"./assets/images/menu/cinnamon.jpeg\": \"./src/assets/images/menu/cinnamon.jpeg\",\n\t\"./assets/images/menu/coffee.jpeg\": \"./src/assets/images/menu/coffee.jpeg\",\n\t\"./assets/images/menu/mango.jpeg\": \"./src/assets/images/menu/mango.jpeg\",\n\t\"./assets/images/menu/pistachio-redbean.jpeg\": \"./src/assets/images/menu/pistachio-redbean.jpeg\",\n\t\"./assets/images/menu/salmon.jpeg\": \"./src/assets/images/menu/salmon.jpeg\",\n\t\"./assets/images/menu/steak.jpeg\": \"./src/assets/images/menu/steak.jpeg\",\n\t\"./content/menu-list\": \"./src/content/menu-list.json\",\n\t\"./content/menu-list.json\": \"./src/content/menu-list.json\",\n\t\"./content/welcome.txt\": \"./src/content/welcome.txt\",\n\t\"./hours\": \"./src/hours.js\",\n\t\"./hours.js\": \"./src/hours.js\",\n\t\"./index\": \"./src/index.js\",\n\t\"./index.js\": \"./src/index.js\",\n\t\"./initial_page_load\": \"./src/initial_page_load.js\",\n\t\"./initial_page_load.js\": \"./src/initial_page_load.js\",\n\t\"./loadAbout\": \"./src/loadAbout.js\",\n\t\"./loadAbout.js\": \"./src/loadAbout.js\",\n\t\"./menu\": \"./src/menu.js\",\n\t\"./menu.js\": \"./src/menu.js\",\n\t\"./styles/menu.css\": \"./src/styles/menu.css\",\n\t\"./styles/style.css\": \"./src/styles/style.css\",\n\t\"./styles/style_nav.css\": \"./src/styles/style_nav.css\",\n\t\"./welcome\": \"./src/welcome.js\",\n\t\"./welcome.js\": \"./src/welcome.js\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive ^.*$\";\n\n//# sourceURL=webpack://restaurant-page/./src/_sync_^.*$?");
 
 /***/ }),
 
@@ -294,6 +294,72 @@ eval("module.exports = __webpack_require__.p + \"4eeea4568f11e1962430.jpeg\";\n\
 
 /***/ }),
 
+/***/ "./src/assets/images/menu/blueberry.jpeg":
+/*!***********************************************!*\
+  !*** ./src/assets/images/menu/blueberry.jpeg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"1d669807364b4d3ca6b9.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/blueberry.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu/blueberry2.jpeg":
+/*!************************************************!*\
+  !*** ./src/assets/images/menu/blueberry2.jpeg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"852274a50b25436bf160.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/blueberry2.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu/cinnamon.jpeg":
+/*!**********************************************!*\
+  !*** ./src/assets/images/menu/cinnamon.jpeg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ce73f8a49304b74bb1c9.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/cinnamon.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu/coffee.jpeg":
+/*!********************************************!*\
+  !*** ./src/assets/images/menu/coffee.jpeg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"655dfa3396a6f5b5e176.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/coffee.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu/mango.jpeg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/menu/mango.jpeg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"961b0ade4eacc5042fb7.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/mango.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/menu/pistachio-redbean.jpeg":
+/*!*******************************************************!*\
+  !*** ./src/assets/images/menu/pistachio-redbean.jpeg ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"caa8095981eda61d7f38.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/assets/images/menu/pistachio-redbean.jpeg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/menu/salmon.jpeg":
 /*!********************************************!*\
   !*** ./src/assets/images/menu/salmon.jpeg ***!
@@ -323,7 +389,7 @@ eval("module.exports = __webpack_require__.p + \"5c201724627904439040.jpeg\";\n\
 /***/ ((module) => {
 
 "use strict";
-eval("module.exports = JSON.parse('[{\"name\":\"Seared Steak\",\"detail\":\"Our prime beef served to your taste with a delicious choice of seasonal sides.\",\"image\":\"./assets/images/menu/steak.jpeg\"},{\"name\":\"Seared Salmon Fillet\",\"detail\":\"Our locally sourced salmon served with a refreshing buckwheat summer salad.\",\"image\":\"./assets/images/menu/salmon.jpeg\"}]');\n\n//# sourceURL=webpack://restaurant-page/./src/content/menu-list.json?");
+eval("module.exports = JSON.parse('[{\"name\":\"Blueberry\",\"detail\":\"Indulge in our heavenly blueberry macarons - a delicate balance of crispy outer shells and soft, melt-in-your-mouth centers, filled with a luscious blueberry cream.\",\"image\":\"./assets/images/menu/blueberry.jpeg\"},{\"name\":\"Lemon\",\"detail\":\"Savor the zesty and refreshing taste of our Lemon Macarons. Each bite will take you on a journey of bright citrusy notes, balanced with a delicate sweetness that melts in your mouth.\",\"image\":\"./assets/images/menu/mango.jpeg\"},{\"name\":\"Red Bean x Pistachio\",\"detail\":\"Discover the unique and delicious blend of flavors in our Pistachio Red Bean Macarons. Made with finely ground pistachios and filled with a creamy red bean paste, each macaron is a delightful fusion of nutty and sweet flavors.\",\"image\":\"./assets/images/menu/pistachio-redbean.jpeg\"},{\"name\":\"Coffee\",\"detail\":\"Awaken your taste buds with our Coffee Macarons, a perfect blend of rich, aromatic coffee flavors and delicate French pastry. Each macaron is carefully crafted with a smooth coffee ganache filling that perfectly complements the crispy and chewy texture of the cookie.\",\"image\":\"./assets/images/menu/coffee.jpeg\"},{\"name\":\"Cinnamon\",\"detail\":\"Experience the warm and comforting flavors of our Cinnamon Macarons. Each bite of these delicate French pastries will transport you to a cozy autumn day with its delicious blend of cinnamon and sugar.\",\"image\":\"./assets/images/menu/cinnamon.jpeg\"}]');\n\n//# sourceURL=webpack://restaurant-page/./src/content/menu-list.json?");
 
 /***/ })
 
