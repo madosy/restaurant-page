@@ -1,0 +1,24 @@
+.hours-table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 50vw;
+    max-width: 600px;
+
+    th, td{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    tr:nth-child(even) {
+        $bgcol: #FAEDCD;
+        background-color: scale-color($bgcol, $lightness: 20%);
+        td:first-of-type {
+            border-radius: 10px 0 0 10px;
+        }
+        td:last-of-type {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+
+    
+}
