@@ -1,7 +1,7 @@
 import loadMenu from "./menu"
 import loadWelcome from "./welcome"
 import loadHours from "./hours"
-import loadAbout from "./loadAbout"
+import loadAbout from "./about"
 
 (() => {
     const contentDiv = document.createElement('div')

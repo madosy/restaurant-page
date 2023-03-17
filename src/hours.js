@@ -1,4 +1,4 @@
-import "./styles/hours.css"
+import "./styles/hours.scss"
 import hours_data from "./content/hours.json"
 
 export default function loadHours(){

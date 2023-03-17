@@ -22,6 +22,9 @@ module.exports = {
         {
           test: /\.(woff|woff2|eot|ttf|otf)$/i,
           type: 'asset/resource',
+          generator: {
+            filename: 'assets/fonts/[hash][ext][query]'
+          }
         },
         {
           test: /\.txt$/i,
@@ -29,7 +32,21 @@ module.exports = {
         },
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
-          type: 'asset/resource'
+          type: 'asset/resource',
+          generator: {
+            filename: 'assets/images/[hash][ext][query]'
+          }
+        },
+        {
+          test: /\.s[ac]ss$/i,
+          use: [
+            // Creates `style` nodes from JS strings
+            "style-loader",
+            // Translates CSS into CommonJS
+            "css-loader",
+            // Compiles Sass to CSS
+            "sass-loader",
+          ],
         },
     ]
   },
